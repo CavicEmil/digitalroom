@@ -1,0 +1,54 @@
+body {
+    margin: 5vw;
+}
+
+.introduction {
+    background-color: rgba(114, 65, 0, 0.356);
+}
+
+h1 {
+    color: #201010;
+    font-size: 48px;
+    font-weight:700;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+.bodytext {
+    color: #201010;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.persontitle {
+    color: #201010;
+    font-size: 48px;
+    font-weight:700;
+    font-family: 'Cinzel Decorative', serif;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+img {
+    width: 40vw;
+    height:auto;
+    border-radius: 100%;
+}
+
+.suspect {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap:1vh;
+}
+
+.biotextwrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.biotextwrapper p {
+    vertical-align: middle;
+}
