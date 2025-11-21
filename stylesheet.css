@@ -2,8 +2,50 @@ body {
     margin: 5vw;
 }
 
+.noirblack {
+    color: #0a0a0a;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .introduction {
     background-color: rgba(114, 65, 0, 0.356);
+}
+
+.dressingroom {
+    background-color: rgba(114, 65, 0, 0.356);
+    background-image: url(util/firefly-dressingroom.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.audiobooth {
+    background-color: rgba(114, 65, 0, 0.356);
+    background-image: url(util/firefly-audiobooth.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.securityfootage {
+    background-color: rgba(114, 65, 0, 0.356);
+    background-image: url(util/firefly-securityfootage.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 
 h1 {
@@ -11,6 +53,20 @@ h1 {
     font-size: 48px;
     font-weight:700;
     font-family: 'Cinzel Decorative', serif;
+}
+
+.ctabtn {
+    text-align: center;
+    display:block;
+    text-align: center;
+    width: 50vw;
+    color: #201010;
+    font-size: 48px;
+    font-weight:700;
+    font-family: 'Cinzel Decorative', serif;
+    background-color: #f1f1f1ad;
+    border-radius: 100px;
+    padding:5vw;
 }
 
 .bodytext {
@@ -52,3 +108,13 @@ img {
 .biotextwrapper p {
     vertical-align: middle;
 }
+
+.description {
+    padding: 5vw;
+    background-color: #f1f1f1ad;
+    border-radius: 100px;
+}
+
+.protipp {
+    font-weight: bold;
+    }
